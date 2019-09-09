@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["yoshi@chubachi.net"]
 
   spec.summary       = %q{An Asciidoctor extention to Concatenate multiple lines.}
-  spec.description   = %q{The extention concatenates multiple lines separated by LF charactors in AsciiDoc documents. When we write CJK documents, A LF charactor at the end of each lines are shown as unnecessary white spaces in a sentence.}
+  spec.description   = %q{The extension concatenates multiple lines separated by LF characters in AsciiDoc documents. When we write CJK documents, An LF character at the end of each line is shown as unnecessary white spaces in a sentence.}
   spec.homepage      = "https://github.com/ychubachi/asciidoctor-concat"
   spec.license       = "MIT"
 
