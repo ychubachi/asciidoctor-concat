@@ -1,8 +1,4 @@
 require "asciidoctor/concat/version"
+require 'asciidoctor/extensions'
 
-module Asciidoctor
-  module Concat
-    class Error < StandardError; end
-    # Your code goes here...
-  end
-end
+require_relative "concat/concat_block"
