@@ -2,9 +2,9 @@ require 'asciidoctor'
 require 'asciidoctor/extensions'
 
 module Asciidoctor
-  module Concat
+  module NoSpace
     class Error < StandardError; end
-    class ConcatBlock < Asciidoctor::Extensions::BlockProcessor
+    class NoSpaceBlock < Asciidoctor::Extensions::BlockProcessor
       use_dsl
     
       named :no_space

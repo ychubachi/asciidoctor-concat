@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "asciidoctor/concat"
+require "asciidoctor/no_space"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
