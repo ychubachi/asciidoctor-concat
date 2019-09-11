@@ -3,7 +3,6 @@ require 'asciidoctor/extensions'
 
 module Asciidoctor
   module NoSpace
-    class Error < StandardError; end
     class NoSpaceBlock < Asciidoctor::Extensions::BlockProcessor
       use_dsl
     
