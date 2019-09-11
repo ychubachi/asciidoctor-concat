@@ -1,5 +1,0 @@
-[no_space]
-The time is now.
-Get a move on.
-今日の天気は
-晴れでしょう．
