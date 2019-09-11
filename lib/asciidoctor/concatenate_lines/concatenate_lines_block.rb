@@ -3,7 +3,7 @@ require 'asciidoctor/extensions'
 
 module Asciidoctor
   module ConcatenateLines
-    class ConcatenateLinesBlock < Asciidoctor::Extensions::TreeProcessor
+    class ConcatenateLinesProcessor < Asciidoctor::Extensions::TreeProcessor
       def process document
         return unless document.blocks?
         process_blocks document
