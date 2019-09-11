@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    asciidoctor-no_space (0.1.0)
+    asciidoctor-concatenate_lines (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -28,7 +28,7 @@ PLATFORMS
 
 DEPENDENCIES
   asciidoctor
-  asciidoctor-no_space!
+  asciidoctor-concatenate_lines!
   bundler (~> 2.0)
   rake (~> 12.0)
   rspec (~> 3.0)
