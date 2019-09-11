@@ -1,23 +1,23 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "asciidoctor/concatenate_lines/version"
+require "asciidoctor/concat_lines/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "asciidoctor-concatenate_lines"
-  spec.version       = Asciidoctor::ConcatenateLines::VERSION
+  spec.name          = "asciidoctor-concat_lines"
+  spec.version       = Asciidoctor::ConcatLines::VERSION
   spec.authors       = ["Yoshihide Chubachi"]
   spec.email         = ["yoshi@chubachi.net"]
 
   spec.summary       = %q{An Asciidoctor extention to remove unnecessary white spaces in converted CJK texts.}
   spec.description   = %q{This extension concatenates multiple lines without LF characters which output unnecessary white spaces in converted CJK texts. If the line ends with ASCII characters and the next line begins with so, it joins the lines with a white space character.}
-  spec.homepage      = "https://github.com/ychubachi/asciidoctor-concatenate_lines"
+  spec.homepage      = "https://github.com/ychubachi/asciidoctor-concat_lines"
   spec.license       = "MIT"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/ychubachi/asciidoctor-concatenate_lines"
-  spec.metadata["changelog_uri"] = "https://github.com/ychubachi/asciidoctor-concatenate_lines/blob/master/CHANGELOG.adoc"
+  spec.metadata["source_code_uri"] = "https://github.com/ychubachi/asciidoctor-concat_lines"
+  spec.metadata["changelog_uri"] = "https://github.com/ychubachi/asciidoctor-concat_lines/blob/master/CHANGELOG.adoc"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

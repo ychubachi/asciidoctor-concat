@@ -1,4 +1,4 @@
-require 'asciidoctor/concatenate_lines'
+require 'asciidoctor/concat_lines'
 
 input1 = <<EOS
 今日の天気は
@@ -29,9 +29,9 @@ output2 = <<EOS
 </div>
 EOS
 
-RSpec.describe Asciidoctor::ConcatenateLines do
+RSpec.describe Asciidoctor::ConcatLines do
   it "has a version number" do
-    expect(Asciidoctor::ConcatenateLines::VERSION).not_to be nil
+    expect(Asciidoctor::ConcatLines::VERSION).not_to be nil
   end
 
   it "convines multiple lines without LF characters" do

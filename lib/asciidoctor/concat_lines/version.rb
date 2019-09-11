@@ -1,5 +1,5 @@
 module Asciidoctor
-  module ConcatenateLines
+  module ConcatLines
     VERSION = "0.1.0"
   end
 end
