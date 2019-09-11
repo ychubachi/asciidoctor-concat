@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["yoshi@chubachi.net"]
 
   spec.summary       = %q{An Asciidoctor extention to remove unnecessary white spaces in converted CJK texts.}
-  spec.description   = %q{This extension combines multiple lines without LF characters which shows as unnecessary white spaces for CJK texts.}
+  spec.description   = %q{This extension concatenates multiple lines without LF characters which output unnecessary white spaces in converted CJK texts. If the line ends with ASCII characters and the next line begins with so, it joins the lines with a white space character.}
   spec.homepage      = "https://github.com/ychubachi/asciidoctor-concatenate_lines"
   spec.license       = "MIT"
 
