@@ -2,32 +2,30 @@ require 'asciidoctor/no_space'
 
 input1 = <<EOS
 今日の天気は
-晴れでしょう．
+晴れでしょう。
 It is
 fine today.
 EOS
 
 output1 = <<EOS
 <div class="paragraph">
-<p>今日の天気は
-晴れでしょう．
-It is
-fine today.</p>
+<p>今日の天気は晴れでしょう。It is fine today.</p>
 </div>
 EOS
 
 input2 = <<EOS
-[no_space]
-:hoge:
 今日の天気は
+ヤッター
 晴れでしょう．
-It is
-fine today.
+Yeah!
+432.1 -
+123.4
+= 333.3
 EOS
 
 output2 = <<EOS
 <div class="paragraph">
-<p>今日の天気は晴れでしょう．It isfine today.</p>
+<p>今日の天気はヤッター晴れでしょう．Yeah! 432.1 - 123.4 = 333.3</p>
 </div>
 EOS
 
