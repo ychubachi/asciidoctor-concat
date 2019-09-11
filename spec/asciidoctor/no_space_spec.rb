@@ -1,8 +1,5 @@
 require 'asciidoctor/no_space'
 
-require 'asciidoctor'
-require 'asciidoctor/extensions'
-
 input1 = <<EOS
 今日の天気は
 晴れでしょう．
@@ -40,11 +37,6 @@ RSpec.describe Asciidoctor::NoSpace do
   end
 
   it "convines multiple lines without LF characters" do
-
-    Asciidoctor::Extensions.register do
-      block  Asciidoctor::NoSpace::NoSpaceBlock
-    end
-    
     expect((Asciidoctor.convert input1) + "\n").to eq output1
     expect((Asciidoctor.convert input2) + "\n").to eq output2
   end
