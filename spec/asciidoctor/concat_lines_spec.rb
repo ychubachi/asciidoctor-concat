@@ -1,4 +1,4 @@
-require 'asciidoctor/concat_lines'
+require 'asciidoctor-concat_lines'
 
 input1 = <<EOS
 今日の天気は
